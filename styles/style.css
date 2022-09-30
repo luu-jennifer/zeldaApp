@@ -222,3 +222,104 @@ template {
   width: 80%;
   margin: 0 auto;
 }
+
+html {
+  font-size: 125%;
+}
+
+body {
+  background-color: #0B8142;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  color: #000;
+  letter-spacing: 0.1rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 3.5rem;
+}
+
+h2,
+h3 {
+  color: #EFC645;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  line-height: 2rem;
+  font-size: 2rem;
+}
+
+ul,
+li,
+a,
+input {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+a:hover {
+  color: #FFF;
+}
+a:focus {
+  color: #FFF;
+}
+
+button {
+  font-size: 1.5rem;
+  background-color: #1D5F66;
+  border: none;
+  padding: 10px 20px;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 20px;
+}
+button:hover {
+  background-color: #3CB8C6;
+}
+button:focus {
+  background-color: #3CB8C6;
+}
+
+header .flexContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.headingContainer {
+  padding: 5rem 0;
+}
+
+h1,
+h2,
+h3,
+button {
+  margin-bottom: 4rem;
+}
+
+.question .flexContainer {
+  display: flex;
+}
+
+footer p {
+  text-align: center;
+}
