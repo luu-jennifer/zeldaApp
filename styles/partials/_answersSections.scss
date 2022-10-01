@@ -10,6 +10,9 @@
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
+  h2 {
+    margin: 2rem 1rem 1rem 1rem;
+  }
 }
 
 .answer .cardContainer {
@@ -25,7 +28,7 @@
   }
   .cardContentContainer {
     background-color: $quaternary;
-    max-width: 50vw;
     padding: 2rem;
+    text-align: center;
   }
 }

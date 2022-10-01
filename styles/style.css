@@ -331,6 +331,9 @@ button {
   flex-wrap: wrap;
   text-align: center;
 }
+.answer .flexContainer h2 {
+  margin: 2rem 1rem 1rem 1rem;
+}
 
 .answer .cardContainer {
   background-color: #3CB8C6;
@@ -346,8 +349,8 @@ button {
 }
 .answer .cardContainer .cardContentContainer {
   background-color: #1D5F66;
-  max-width: 50vw;
   padding: 2rem;
+  text-align: center;
 }
 
 footer p {
