@@ -269,6 +269,10 @@ input {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
@@ -318,6 +322,32 @@ button {
 
 .question .flexContainer {
   display: flex;
+}
+
+.answer .flexContainer {
+  display: flex;
+  background-color: #F9E8A2;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.answer .cardContainer {
+  background-color: #3CB8C6;
+  margin: 0 auto;
+}
+.answer .cardContainer .imgContainer {
+  overflow: hidden;
+  padding: 1rem;
+  max-width: 100vw;
+}
+.answer .cardContainer .imgContainer .img {
+  width: 100%;
+}
+.answer .cardContainer .cardContentContainer {
+  background-color: #1D5F66;
+  max-width: 50vw;
+  padding: 2rem;
 }
 
 footer p {
